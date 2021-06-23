@@ -1,0 +1,20 @@
+/* Ive created a variable named "myAge", then set it equal to my age as a number */
+const myAge = 19;
+
+/* Ive created a variable named "earlyYears" and save the value 2 to it. Note, the value saved to this variable will change. */
+var earlyYears = 2;
+
+earlyYears *= 10.5;
+
+/* subtract by 2 */
+let laterYears = myAge - 2;
+
+/* Multiply the laterYears variable by 4 to calculate the number of dog years accounted for by your later years. */
+laterYears *= 4;
+
+let myAgeInDogYears = earlyYears + laterYears;
+
+/* Let’s use a string method next.Write your name as a string, call its built-in method .toLowerCase(), and store the result in a variable called myName.The toLowerCase method returns a string with all lowercase letters. */
+let myName = 'Clarence'.toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
